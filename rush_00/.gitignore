@@ -1,0 +1,45 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    .gitignore_global                                  :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: zaz <zaz@staff.42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2013/06/20 15:51:46 by zaz               #+#    #+#              #
+#    Updated: 2018/03/27 11:59:32 by dolewski         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Compiled source files
+*.a
+*.o
+*.so
+a.out
+*.class
+*.com
+*.pyc
+*.cmi
+*.cmx
+*.cmo
+objs/
+
+# Editor backups
+\#*#
+*~
+.*.swp
+
+# OS-generated crap
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.nfs*
+Thumbs.db
+ehthumbs.db
+
+# IDE config file
+.vscode
+
+# Debug file
+*.dSYM
