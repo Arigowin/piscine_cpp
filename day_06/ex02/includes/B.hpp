@@ -5,12 +5,12 @@
 
 class B : public Base
 {
-// public:
-//   B(void);
-//   B(B const &src);
-//   ~B(void);
+public:
+  B(void);
+  B(B const &src);
+  ~B(void);
 
-//   B &operator=(B const &rhs);
+  B &operator=(B const &rhs);
 };
 
 #endif //B_HPP

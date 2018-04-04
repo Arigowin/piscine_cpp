@@ -3,12 +3,12 @@
 
 class Base
 {
-// private:
-//   Base(Base const &src);
-//   Base &operator=(Base const &rhs);
+private:
+  Base(Base const &src);
+  Base &operator=(Base const &rhs);
 
 public:
-  // Base(void);
+  Base(void);
   virtual ~Base(void);
 };
 
