@@ -1,0 +1,46 @@
+# Compiled source files
+*.a
+*.o
+*.so
+a.out
+*.class
+*.com
+*.pyc
+*.cmi
+*.cmx
+*.cmo
+bin/
+
+# Editor backups
+\#*#
+*~
+.*.swp
+
+# OS-generated crap
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.nfs*
+Thumbs.db
+ehthumbs.db
+
+# IDE config file
+.vscode
+.idea
+
+# Debug file
+*.dSYM
+cmake-build-debug/
+
+# Other
+.makefile_saves/
+dep/SDL2-2.0.8/
+SDL2-2.0.8/
+.idea/
+cmake-build-debug/
+CMakeLists.txt
+
+# Executable
+ft_gkrellm
